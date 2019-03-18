@@ -1,1 +1,11 @@
-//Write your scss here and then compile it to "style.css"...
+// Color square
+#square {
+    background-color: black;
+    width: 100%;
+
+    &:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+}

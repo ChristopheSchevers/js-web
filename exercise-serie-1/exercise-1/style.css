@@ -1,1 +1,11 @@
-/*Use the .scss file instead!*/
+#square {
+  background-color: black;
+  width: 100%;
+}
+#square:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
