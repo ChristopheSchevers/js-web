@@ -13,23 +13,33 @@
     <!--Link to your stylesheet-->
     <link rel="stylesheet" href="style.css">
     
-    <title>Exercise ... : ...</title>
+    <title>Exercise 1.2 : Calculator</title>
 
 </head>
 <body>
     
-    <h1 class="text-center my-5"><i class="fas fa-cat"></i> This is a template <i class="fas fa-cat"></i></h1>
+    <h1 class="text-center my-5"><i class="fas fa-calculator"></i> Calculator <i class="fas fa-calculator"></i></h1>
 
 
     <div class="container my-5 py-5 bg-white text-success">
 
         
+        <div class="text-center">
+            <div class="form-group col-4 offset-4">
+                <label for="num1">First value</label>
+                <input type="number" class="form-control text-right" id="num1" rows="1"></input>
 
+                <label for="num2">Second value</label>
+                <input type="number" class="form-control text-right" id="num2" rows="1"></input>
+            </div>
 
-        <!-- PLACE YOUR CONTENT HERE-->
+            <button type="button" class="btn btn-outline-secondary" onclick="addBtn()">+</button>        
+            <button type="button" class="btn btn-outline-secondary" onclick="subBtn()">-</button>        
+            <button type="button" class="btn btn-outline-secondary" onclick="multiBtn()">X</button>        
+            <button type="button" class="btn btn-outline-secondary" onclick="divideBtn()">/</button>
 
-
-
+            <p id="result" class="display-4 my-3"></p>
+        </div>
 
     </div>
 
