@@ -1,1 +1,10 @@
-/*Use the .scss file instead!*/
+.playground {
+  height: 50vh;
+}
+.playground button {
+  position: absolute;
+  top: 47%;
+  left: 47%;
+}
+
+/*# sourceMappingURL=style.css.map */
