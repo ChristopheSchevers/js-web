@@ -1,1 +1,26 @@
 //Write your scss here and then compile it to "style.css"...
+
+.img-container {
+    display: block;
+    min-height: 100px;
+    min-width: 100px;
+
+    background: {        
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+    }
+}
+
+#pic1 {background-image: url("../exercise-5/images/cat1.jpg");}
+#pic2 {background-image: url("../exercise-5/images/cat2.jpg");}
+#pic3 {background-image: url("../exercise-5/images/cat3.jpg");}
+#pic4 {background-image: url("../exercise-5/images/cat4.jpg");}
+#pic5 {background-image: url("../exercise-5/images/cat5.jpg");}
+#pic6 {background-image: url("../exercise-5/images/cat6.jpg");}
+#pic7 {background-image: url("../exercise-5/images/cat7.jpg");}
+#pic8 {background-image: url("../exercise-5/images/cat8.jpg");}
+#pic9 {background-image: url("../exercise-5/images/cat9.jpg");}
+#pic10 {background-image: url("../exercise-5/images/cat10.jpg");}
+#pic11 {background-image: url("../exercise-5/images/cat11.jpg");}
+#pic12 {background-image: url("../exercise-5/images/goose.jpeg");}
