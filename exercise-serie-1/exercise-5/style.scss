@@ -1,18 +1,31 @@
 //Write your scss here and then compile it to "style.css"...
-.img-container {
+.gallery-img {
     display: block;
     height: 500px;
     width: 500px;
-    overflow: hidden;
     margin: {
         left: auto;
         right: auto;
     }
+    min-height: 100px;
+    min-width: 100px;
 
-    img {
-        display: block;
-        min-width: 100%;
-        min-height: 100%;
-        -ms-interpolation-mode: bicubic;
+    background: {        
+        repeat: no-repeat;
+        position: center;
+        size: cover;
     }
 }
+
+#cat1 {background-image: url("images/cat1.jpg");}
+#cat2 {background-image: url("images/cat2.jpg");}
+#cat3 {background-image: url("images/cat3.jpg");}
+#cat4 {background-image: url("images/cat4.jpg");}
+#cat5 {background-image: url("images/cat5.jpg");}
+#cat6 {background-image: url("images/cat6.jpg");}
+#cat7 {background-image: url("images/cat7.jpg");}
+#cat8 {background-image: url("images/cat8.jpg");}
+#cat9 {background-image: url("images/cat9.jpg");}
+#cat10 {background-image: url("images/cat10.jpg");}
+#cat11 {background-image: url("images/cat11.jpg");}
+#cat12 {background-image: url("images/goose.jpeg");}
