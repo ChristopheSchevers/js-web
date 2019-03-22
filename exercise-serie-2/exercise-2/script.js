@@ -21,7 +21,7 @@ function getBeers() {
         if (this.status == 200) {
             data.forEach(beer => {
                 const card = document.createElement('div');
-                card.setAttribute('class', 'card d-flex flex-md-row flex-sm-column col-md-12 col-8 mx-auto my-5 px-0');
+                card.setAttribute('class', 'card d-flex flex-md-row flex-column col-md-10 col-12 mx-auto my-5 px-0');
 
                 const cardHead = document.createElement('div');
                 cardHead.setAttribute('class', 'card-header text-center');
