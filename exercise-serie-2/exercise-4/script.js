@@ -39,6 +39,9 @@ axios.get('https://character-database.becode.xyz/characters/')
         this.data = response.data;
         this.data.forEach((character) => {
             const row = document.createElement('tr');
+            row.setAttribute('id', character.id);
+            row.setAttribute('data-toggle', 'modal');
+            row.setAttribute('data-target', '#theModal');
 
             const th = document.createElement('th');
             th.setAttribute('scope', 'row');
@@ -57,5 +60,14 @@ axios.get('https://character-database.becode.xyz/characters/')
             th.appendChild(pic);
             row.appendChild(td1);
             row.appendChild(td2);
+
+            // Modal
+            const mName = document.getElementById('mName');
+            const mPic = document.getElementById('mPic');
+            const mDescrip = document.getElementById('mDescrip');
+
+            mName.innerHTML = character.name;
+            mPic.src = 'data:img/gif;base64,' + character.image;
+            mDescrip.innerHTML = character.description;
         });
     });
