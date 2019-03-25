@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description"   content="I collected plenty cookies with my Becode Cookie Clicker!" />
     
     <!--Link to FontAwesome stylesheet-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -17,19 +18,17 @@
 
 </head>
 <body onload="cookieClicker()">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=215418420713&autoLogAppEvents=1"></script>
     
     <h1 class="text-center my-5"><i class="fas fa-cookie-bite"></i> Cookie Clicker <i class="fas fa-cookie-bite"></i></h1>
 
-
+    
     <div class="container my-5 py-5 bg-white text-success">
-
+        
         <div id="root"></div>
-
-        <div class="fb-share-button" 
-            data-href="" 
-            data-layout="button_count">
-        </div>
-
+        
+        <div class="fb-share-button" data-href="" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"><i class="fab fa-facebook-square"></i> Share</a></div>
     </div>
 
 
